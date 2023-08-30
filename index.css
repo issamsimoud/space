@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  height: 200px;  
+  background-image: url('desktop-1920x1080.jpeg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+ 
+
+}
+#header{
+    background-color: transparent;
+}
+header{
+    
+    
+    
+    position: fixed;
+    display:flex;
+    justify-content:space-between;
+    top: 0;
+    padding: 20px ;
+    width: 100%;
+    background-color:transparent;
+
+   }
+
+
+.navbar a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    align-items: right;
+    padding-left:20px ;
+    padding-right:20px  ;
+    padding-bottom: 5px;
+
+
+}
+.navbar a:hover{
+    border-bottom-width:5px ;
+    border-bottom: 3px solid;    
+    border-bottom-color: white;
+    
+
+}
+.navbar a.active{
+    border-bottom-width :15px ;
+    border-bottom: 3px solid;    
+    border-bottom-color: white;
+
+}
+  
+header h2 {
+    font-size: 35px;
+    float: left;
+    color: white;
+    top: 0;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+header h2:hover{
+    font-size: 45px;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+.text{
+    height: 100vh;
+    display: flexbox;
+    align-items: center;
+    color: white;
+    padding: 10%;
+
+}
+
+.content h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+.btn{
+     margin-top: 50px;
+     display: flex;
+     justify-content:center;
+}    
+.btn a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(4, 0, 53);
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: white ;
+
+}
+
+.btn a.link{
+    background:0;
+    border: 2px solid white;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    
+}
+
+
+.btn a:hover {
+    background:0;
+    border: 2px solid white;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    
+
+}
+.btn a.link:hover{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(4, 0, 53);
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: aliceblue ;
+ 
+
+}
+
+section{
+    display: flex;
+     padding: 10px;
+     height: 500px ;
+     background-color: rgb(4, 0, 53);
+}
+.section{
+    
+    font-size: 25px;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 20px ;
+    padding-left: 30px;
+    color: white;
+}
+.section h3{
+    text-align: left;
+    font-size: 35px;
+    padding: 25px;
+
+}
+.section p{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+.section a{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(4, 0, 53);
+    padding: 25px;
+    margin: 100px 0 20px 250px;
+
+    border-radius: 20px;
+    background-color: white ;
+
+}
+.section a:hover{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 100px 0 20px 250px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background: 0 ;
+
+}
+
+.img{
+    display: flex;
+    place-items: right ;
+    padding:20px 20px;
+    
+}
+
+.img img{
+    width: 500px;
+    height: 400px;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img img:hover{
+ 
+ opacity: 0.6;
+}
+
+.about{
+    display: flex;
+     padding: 10px;
+     height: 500px ;
+     background-color:white;
+
+}
+.aboutus{
+  margin: 25px;
+  padding :25px;
+  color:rgb(4, 0, 53)
+}
+.aboutus h3{
+    text-align: left;
+    font-size: 35px;
+    padding: 25px;
+
+}
+
+.aboutus p{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+.immg{
+    
+    display: flex;
+    place-items: right ;
+    padding:20px 20px;
+}
+.immg img{
+    width: 500px;
+    height: 400px;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.contact{
+    display: flex;
+
+    
+     
+}
+.form{
+    margin: auto;
+
+}
+.form h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+label {
+  
+    color: white;
+    
+}
+input{
+    color: black;
+    width: 300px;
+ }
+#message{
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#name,#email {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding:7px;
+    border-radius: 10px;
+}
+.form button{
+    color: rgb(4, 0, 53);
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+ .pat{
+    color:rgb(4, 0, 53);
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+ }
+.parth{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: white;
+}
+.parth img{
+    margin-top: 100px;
+    height : 150px;
+    max-width: 300px;
+
+
+}
+footer{
+    background-color: white;
+     ;
+
+}
+footer h6{
+    font-size: 20px;
+    text-align: center;
+   margin-top: 50px;
+   margin-bottom: 25px;
+    font-family: sans-serif;
+    color: gray;
+}
